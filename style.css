@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("images/pattern-background-desktop.svg");
+    background-position: initial;
+    background-repeat: repeat-x;
+    overflow: hidden;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+p{
+    color: hsl(224, 23%, 55%);
+}
+
+#annual{
+    color: #000;
+}
+
+#cardContainer{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#cardComponent img{
+    border-radius: 12px;
+}
+
+#cardComponent{
+    text-align: center;
+    padding: 1rem;
+}
+
+#plan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem;
+    gap: 2rem;
+}
+
+#payment{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2rem;
+}
+
+#proceed{
+    width: 80%;
+    align-self: center;
+    padding: 1rem;
+    border-radius: 12px;
+    border: hidden;
+    background: hsl(245, 75%, 52%);
+    color: #fff;
+}
+
+#proceed:hover{
+    cursor: pointer;
+    background: hsl(224, 23%, 55%);
+}
+
+a:hover{
+    color: hsl(224, 23%, 55%);
+}
+
